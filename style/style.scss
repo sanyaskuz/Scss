@@ -1,8 +1,41 @@
+@import url(../style/mixins.scss);
+
 $color: red;
+
+
 
 
 
 
 body{
     background: $color;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.carousel_section{
+    .wrap_carousel{
+        @include flex-center(space-around);
+        flex-wrap: wrap;
+        .carousel_item{
+            width: 350px;
+            height: 350px;
+            border-radius: 10px;
+            overflow: hidden;
+            a{
+                width: auto;
+                height: auto;
+                img{
+                    width: 100%;
+                    height: 100%;object-fit: cover;
+                }
+            }
+
+
+        }
+
+    }
+
+    
 }

@@ -1,4 +1,9 @@
 body {
   background: red;
 }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
