@@ -1,10 +1,10 @@
-body {
-  background: red;
+*, html, body {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
 }
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 /*# sourceMappingURL=style.css.map */
