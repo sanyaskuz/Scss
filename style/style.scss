@@ -1,3 +1,5 @@
+
+
 *,html,body{ 
     margin: 0;
     padding: 0;
@@ -5,9 +7,13 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
+    line-height: 1.5;
+    border: none;
+    outline: none;
    
 }
 section{
     max-width: 1350px;
+    height: 100vh;
     background: forestgreen;
 }
