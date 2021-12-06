@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+$fontFamily: 'Hammersmith One', sans-serif ;
+$colortext: #FFFFFF;
 
 
-*,html,body{ 
+*, body, html{ 
     margin: 0;
     padding: 0;
     list-style: none;
@@ -12,8 +15,78 @@
     outline: none;
    
 }
-section{
-    max-width: 1350px;
-    height: 100vh;
-    background: forestgreen;
+.header_section{
+    max-width: 100%;
+    
+    background: #373A3C;
+    margin: 0 auto;
 }
+.header_main{
+    margin: 0px auto;
+    max-width: 1100px;
+    
+    
+
+}
+.container{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 25px;
+    
+}
+.block_main__header_end{
+    display: flex;
+    text-align: center;
+}
+.main_block{
+    display: flex;
+    
+    }
+    li{
+        display: inline-block;
+        position: relative;
+        right: 35px;
+        &:hover{
+            cursor: pointer;
+        }
+
+        a{
+            display: block;
+            margin-right: 25px;
+            color: $colortext;
+            font-family: $fontFamily;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+    }
+
+
+.input_header{
+    width: 200px;
+    height: 38px;
+    border-radius: 5px;
+}
+.forma_block{
+    position: relative;
+    bottom: 8px;
+    right:  25px;
+    
+}
+.heder_end{
+    .item_icon{
+        width: 20px;
+        height: 20px;
+    }
+
+    a{
+        color: $colortext;
+        font-family: $fontFamily;
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
+
+
