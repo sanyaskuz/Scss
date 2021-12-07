@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 $fontFamily: 'Hammersmith One', sans-serif ;
 $colortext: #FFFFFF;
+$colorSlide: #8DD83D ;
 
 
 *, body, html{ 
@@ -23,7 +24,7 @@ $colortext: #FFFFFF;
 }
 .header_main{
     margin: 0px auto;
-    max-width: 1100px;
+    max-width: 95%;
     
     
 
@@ -88,5 +89,53 @@ $colortext: #FFFFFF;
         font-size: 20px;
     }
 }
+.slick-dots {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slick-dots li button {
+    line-height: 0;
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background: $colorSlide;
+    border-radius: 50%;
+    margin: 0 7px;
+  }
+  
+  .slick-dots li button:before {
+    content: '';
+  }
+  
+  .slick-active button {
+    box-shadow: 0 0 10px 0 #00000040;
+    border: 1px solid $colorSlide !important;
+  }
+  
+  .slick-prev, .slick-next {
+    position: absolute;
+    font-size: 0;
+    background: none;
+    top: 50%;
+    width: 15px;
+    height: 15px;
+    border-right: 2px solid $colorSlide;
+    border-top: 2px solid $colorSlide;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .slick-prev {
+    transform: rotate(225deg);
+  }
+  
+  .slick-next {
+    transform: rotate(45deg);
+    right: 0;
+  }
+  
+
+
 
 
