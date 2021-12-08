@@ -1,4 +1,4 @@
-/* Slider */
+/* Slider
 .slick-slider
 {
     position: relative;
@@ -116,4 +116,36 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
+} */
+.gallery {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+    
 }
+.photo {
+    position: relative;
+    height: 750px;
+   
+  
+
+}
+.photo img {
+    height: 750px;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    transition: opacity 1s ;
+
+    
+}
+
+
+.photo img.shown {
+    opacity: 1;
+}
+
+
