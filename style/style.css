@@ -102,9 +102,66 @@ li a {
   border: 1px solid #8DD83D;
   border-radius: 50px;
   background: #FFFFFF;
+  cursor: pointer;
 }
 
 .tabs input:hover {
   background: #8DD83D;
+}
+
+.Star_wars {
+  position: relative;
+  z-index: 1;
+}
+
+.star_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  left: 60%;
+  top: 300%;
+  z-index: 11;
+}
+
+.block_on h2 {
+  position: relative;
+  z-index: 11;
+  color: #FFFFFF;
+}
+
+.block_on span {
+  position: relative;
+  z-index: 11;
+  color: #FFFFFF;
+}
+
+.botton_star {
+  margin-top: 45px;
+}
+
+.botton_star .btn_star {
+  position: relative;
+  z-index: 11;
+  color: #FFFFFF;
+}
+
+.botton_star .star_btn {
+  position: relative;
+  z-index: 11;
+  color: #FFFFFF;
+}
+
+.call_of {
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */

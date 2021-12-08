@@ -148,15 +148,80 @@ $colorSlide: #8DD83D ;
         border: 1px solid $colorSlide;
         border-radius: 50px;
         background: $colortext;
+        cursor: pointer;
         
         &:hover{
             background: $colorSlide;
+            
         }
     }
     
     
     
 }
+.Star_wars{
+    position: relative;
+    z-index: 1;
+   
+
+
+}
+.star_text{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    left: 60%;
+    top: 300%;
+    z-index: 11;
+
+    
+   
+
+}
+
+.block_on{
+    
+    h2{
+        
+        position: relative;
+        z-index: 11;
+        color: #FFFFFF;
+
+    }
+    span{
+        position: relative;
+        z-index: 11;
+        color: #FFFFFF;
+
+    }
+}
+
+.botton_star{
+    margin-top: 45px;
+    
+    .btn_star{
+        position: relative;
+        z-index: 11;
+        color: #FFFFFF;
+
+    }
+    .star_btn{
+        position: relative;
+        z-index: 11;
+        color: #FFFFFF;
+    }
+}
+.call_of{
+    position: ;
+
+
+
+    
+
+}
+
 
 
 
