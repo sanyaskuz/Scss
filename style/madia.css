@@ -1,0 +1,114 @@
+@media (max-width: 915px) {
+    .menu_icon{
+        display: block;
+        z-index: 16;
+        position: relative;
+        width: 30px;
+        height: 18px;
+        cursor: pointer;
+        
+
+
+    }
+
+    .header_menu::before {
+        content: '';
+        position: absolute;
+        z-index: 16;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 70px;
+        background-color: #373A3C;
+        overflow: auto;
+    }
+   
+    .menu_icon span,
+    .menu_icon::before,
+    .menu_icon::after {
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all 0.3s ease 0s;
+        background-color: #fff;
+    }
+    .menu_icon::before,
+    .menu_icon::after {
+        content: '';
+    }
+    .menu_icon::before{
+        top: 0;
+
+    }
+    .menu_icon::after{
+        bottom: 0;
+
+    }
+    .menu_icon span {
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+
+    }
+    
+    .menu_icon._active span {
+        transform: scale(0) translate(0px, -50%);
+
+    
+    }
+    .menu_icon._active::before {
+        top: 50%;
+        transform: rotate(-45deg) translate(0px, -50%);
+    }
+    .menu_icon._active::after {
+        bottom:  50%;
+        transform: rotate(45deg) translate(0px, 50%);
+    }
+
+
+
+    .forma_block{
+        display: none;
+    }
+    .main_nav ul li img{
+        display: none;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    .heder_end{
+        display: none;
+    }
+    .main_nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .text_item{
+        color:#8DD83D ;
+        font-family: 'Hammersmith One', sans-serif;
+    }
+   
+
+    .main_nav{
+        position: fixed;
+        z-index: 15;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 100px 30px 30px 30px;
+        transition: left 0.3s ease 0s;
+
+    }
+    .main_nav._active {
+        left: 0;
+
+    }
+
+
+
+
+    
+}

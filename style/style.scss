@@ -17,20 +17,24 @@ $colorBtn: #686C6F;
     outline: none;
    
 }
+body._lock{
+    overflow: hidden;
+}
+
 .header_section{
     max-width: 100%;
     
     background: #373A3C;
     margin: 0 auto;
 }
-.header_main{
+.header_menu{
     margin: 0px auto;
     max-width: 95%;
     
     
 
 }
-.container{
+.header_container{
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -38,11 +42,13 @@ $colorBtn: #686C6F;
     padding-top: 25px;
     
 }
-.block_main__header_end{
+
+
+.menu__header{
     display: flex;
     text-align: center;
 }
-.main_block{
+.menu_block{
     display: flex;
     
     }
@@ -64,6 +70,14 @@ $colorBtn: #686C6F;
         }
 
     }
+    .logo_block{
+        position: relative;
+        z-index: 16;
+    }    
+
+.menu_icon{
+    display: none;
+}    
 
 
 .input_header{
@@ -92,53 +106,7 @@ $colorBtn: #686C6F;
 }
 
 
-// Slader
-// .slick-dots {
-//     display: flex;
-//     justify-content: center;
-//   }
-  
-//   .slick-dots li button {
-//     line-height: 0;
-//     font-size: 0;
-//     width: 15px;
-//     height: 15px;
-//     background: $colorSlide;
-//     border-radius: 50%;
-//     margin: 0 7px;
-//   }
-  
-//   .slick-dots li button:before {
-//     content: '';
-//   }
-  
-//   .slick-active button {
-//     box-shadow: 0 0 10px 0 #00000040;
-//     border: 1px solid $colorSlide !important;
-//   }
-  
-//   .slick-prev, .slick-next {
-//     position: absolute;
-//     font-size: 0;
-//     background: none;
-//     top: 50%;
-//     width: 15px;
-//     height: 15px;
-//     border-right: 2px solid $colorSlide;
-//     border-top: 2px solid $colorSlide;
-//     cursor: pointer;
-//     z-index: 1000;
-//   }
-  
-//   .slick-prev {
-//     transform: rotate(225deg);
-//   }
-  
-//   .slick-next {
-//     transform: rotate(45deg);
-//     right: 0;
-//   }
-//   end slider 
+
 
 
 
