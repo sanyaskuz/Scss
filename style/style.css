@@ -91,9 +91,59 @@ li a {
   font-size: 20px;
 }
 
-.tabs {
+.block_on {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 60%;
+  z-index: 11;
+  top: 53%;
+}
+
+.botton_star {
+  position: relative;
+  margin-right: 25px;
   text-align: center;
-  padding-top: 20px;
+  padding: 10px 25px;
+  border-radius: 6%;
+  background: #686C6F;
+}
+
+.botton_star .star_btn {
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.botton_star:hover {
+  background: #8DD83D;
+}
+
+.flex_block {
+  position: relative;
+  margin-left: 5px;
+  text-align: center;
+  padding: 10px 25px;
+  border-radius: 6%;
+  background: #686C6F;
+}
+
+.flex_block .btn_star {
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.flex_block:hover {
+  background: #8DD83D;
+}
+
+.tabs {
+  position: relative;
+  text-align: center;
+  padding-top: 60px;
 }
 
 .tabs input {
@@ -107,61 +157,5 @@ li a {
 
 .tabs input:hover {
   background: #8DD83D;
-}
-
-.Star_wars {
-  position: relative;
-  z-index: 1;
-}
-
-.star_text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  left: 60%;
-  top: 300%;
-  z-index: 11;
-}
-
-.block_on h2 {
-  position: relative;
-  z-index: 11;
-  color: #FFFFFF;
-}
-
-.block_on span {
-  position: relative;
-  z-index: 11;
-  color: #FFFFFF;
-}
-
-.botton_star {
-  margin-top: 45px;
-}
-
-.botton_star .btn_star {
-  position: relative;
-  z-index: 11;
-  color: #FFFFFF;
-}
-
-.botton_star .star_btn {
-  position: relative;
-  z-index: 11;
-  color: #FFFFFF;
-}
-
-.call_of {
-  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */

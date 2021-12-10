@@ -2,6 +2,7 @@
 $fontFamily: 'Hammersmith One', sans-serif ;
 $colortext: #FFFFFF;
 $colorSlide: #8DD83D ;
+$colorBtn: #686C6F;
 
 
 *, body, html{ 
@@ -138,16 +139,77 @@ $colorSlide: #8DD83D ;
 //     right: 0;
 //   }
 //   end slider 
-.tabs {
+
+
+
+.block_on{
+    position: absolute;
+    display: flex;
+    left: 60%;
+    z-index: 11;
+    top: 53%;
+
+
+}
+
+.botton_star{
+    position: relative;
+    margin-right: 25px;
     text-align: center;
+    padding: 10px 25px;
+    border-radius: 6%;
+    background: $colorBtn;
     
-    padding-top: 20px;
+  
+    .star_btn{
+
+        font-family: $fontFamily;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    &:hover{
+        background: $colorSlide;
+    }
+
+
+}
+.flex_block{
+    position: relative;
+    margin-left: 5px;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 6%;
+    background: $colorBtn;
+    
+
+    .btn_star{
+        text-align: center;
+        
+    
+        font-family: $fontFamily;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    &:hover{
+        background: $colorSlide;
+    }
+
+}
+
+
+.tabs {
+    position: relative;
+    
+    text-align: center;
+    padding-top: 60px;
+   
     input{
         width: 15px;
         height: 15px;
         border: 1px solid $colorSlide;
         border-radius: 50px;
         background: $colortext;
+        
         cursor: pointer;
         
         &:hover{
@@ -159,69 +221,6 @@ $colorSlide: #8DD83D ;
     
     
 }
-.Star_wars{
-    position: relative;
-    z-index: 1;
-   
-
-
-}
-.star_text{
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    left: 60%;
-    top: 300%;
-    z-index: 11;
-
-    
-   
-
-}
-
-.block_on{
-    
-    h2{
-        
-        position: relative;
-        z-index: 11;
-        color: #FFFFFF;
-
-    }
-    span{
-        position: relative;
-        z-index: 11;
-        color: #FFFFFF;
-
-    }
-}
-
-.botton_star{
-    margin-top: 45px;
-    
-    .btn_star{
-        position: relative;
-        z-index: 11;
-        color: #FFFFFF;
-
-    }
-    .star_btn{
-        position: relative;
-        z-index: 11;
-        color: #FFFFFF;
-    }
-}
-.call_of{
-    position: ;
-
-
-
-    
-
-}
-
 
 
 
