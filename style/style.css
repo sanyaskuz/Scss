@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap");
 *, body, html {
   margin: 0;
   padding: 0;
@@ -170,5 +171,115 @@ li a {
 
 .tabs input:hover {
   background: #8DD83D;
+}
+
+.photo_bac {
+  display: none;
+}
+
+.photo_bac img {
+  display: none;
+}
+
+.photo_bac .text_wrap {
+  display: none;
+}
+
+.best_wrap {
+  max-width: 100%;
+  height: 860px;
+  background-color: #435766;
+  margin: 0 auto;
+}
+
+.container_wrap {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.img_wrap {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.text_item {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.text_item h1 {
+  color: #FFFFFF;
+  font-size: 60px;
+  font-family: "Gowun Batang", serif;
+}
+
+.text_item p {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-family: "Gowun Batang", serif;
+}
+
+.block_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.wrap_block {
+  width: 318px;
+  height: 420px;
+  background-color: #FFFFFF;
+}
+
+.wrap_block h6 {
+  color: #435766;
+  font-size: 18px;
+  font-family: "Gowun Batang", serif;
+}
+
+.wrap_block p {
+  padding-top: 20px;
+  color: #435766;
+  font-size: 24px;
+  font-family: "Gowun Batang", serif;
+}
+
+.wrap_block .img_wraper {
+  padding: 30px;
+  text-align: center;
+}
+
+.wrap_block .img_wraper_one {
+  padding: 60px;
+  text-align: center;
+}
+
+.botton {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0px 10px;
+  border-radius: 5px;
+  background: #8DD83D;
+  margin-top: 35px;
+  width: 300px;
+}
+
+.botton:hover {
+  background-color: #686C6F;
+}
+
+.botton .btn_wrap {
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */
