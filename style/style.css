@@ -277,4 +277,100 @@ li a {
   font-size: 16px;
   color: #FFFFFF;
 }
+
+.xbox {
+  max-width: 100%;
+  height: 880px;
+  background: url(../images/bacgraunds/1.png) no-repeat center;
+  background-size: cover;
+}
+
+.xbox .container_xbox {
+  width: 100%;
+}
+
+.text_xbox {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.text_xbox h1 {
+  color: #FFFFFF;
+  font-family: "Gowun Batang", serif;
+  font-size: 36px;
+}
+
+.block_itom_xbox {
+  width: 318px;
+  height: 400px;
+  border: 1px solid #8DD83D;
+  margin-top: 80px;
+  background-color: #FFFFFF;
+  -webkit-transition: 1s ease 0s;
+  transition: 1s ease 0s;
+}
+
+.block_itom_xbox:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.block_itom_xbox p {
+  display: block;
+  margin-top: 5px;
+  color: #435766;
+  font-size: 18px;
+  font-family: "Gowun Batang", serif;
+  padding-left: 10px;
+}
+
+.block_itom_xbox span {
+  display: block;
+  color: #435766;
+  font-size: 21px;
+  margin-top: 15px;
+  font-family: "Gowun Batang", serif;
+  padding-left: 10px;
+}
+
+.btn_xbox {
+  margin-top: 35px;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0px 10px;
+  border-radius: 5px;
+  background: #8DD83D;
+  margin-top: 35px;
+  width: 300px;
+}
+
+.btn_xbox:hover {
+  background-color: #686C6F;
+}
+
+.btn_xbox .btn_xbox {
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.flex_xbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.block_itom_xbox .one {
+  margin-top: 115px;
+}
 /*# sourceMappingURL=style.css.map */
