@@ -229,6 +229,8 @@ li a {
   width: 318px;
   height: 420px;
   background-color: #FFFFFF;
+  margin-left: 15px;
+  border: 1px solid #8DD83D;
 }
 
 .wrap_block h6 {

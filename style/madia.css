@@ -235,6 +235,19 @@
         color: #FFFFFF;
 
     }
+    .wrap_block{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 1030px){
+    .best_wrap{
+        height: auto;
+    }
+    .wrap_block{
+        margin-bottom: 15px;
+        
+    }
+
 }
 
 
