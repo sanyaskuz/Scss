@@ -127,19 +127,25 @@
 
 
 }
-@media  screen and (max-width: 950px) {
-    /* Слайдер-_____ */
+
+
+@media screen and (max-width: 950px){
     .photo{
         display: none;
     }
-
     .tabs{
         display: none;
     }
+    
+
+    /* Слайдер-_____ */
+  
     .photo_bac{
         display: block;
-        width: 100%;
+        max-width: 100%;
         height: 0px;
+        
+       
         
         text-align: center;
         margin: 0 auto;
@@ -147,7 +153,8 @@
     
     }
     .photo_bac img{
-        
+        display: block;
+        height: 788px;
         width: 100%;
         
         
@@ -156,15 +163,15 @@
     }
     .text_wrap{
         display: block;
-        position: fixed;
-        z-index: 20;
+        position: relative;
+        z-index: 1;
         text-align: center;
         margin: 0 auto;
-        left: -15px;
+        left: -55px;
        
-        bottom:  240px;
+        bottom:  500px;
         
-        width: 100%;
+        max-width: 100%;
         height: 300px ;
 
 
@@ -228,20 +235,15 @@
         color: #FFFFFF;
 
     }
-
-
-
-
-
-
-
 }
-@media  (max-width: 349px){
-    .text_wrap{
-        display: none;
-    }
 
-}
+
+
+
+
+
+
+
 
 
 

@@ -19,6 +19,7 @@ body._lock {
 
 .header_section {
   max-width: 100%;
+  height: 860px;
   background: #373A3C;
   margin: 0 auto;
 }
@@ -157,7 +158,7 @@ li a {
 .tabs {
   position: relative;
   text-align: center;
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
 .tabs input {
@@ -174,14 +175,6 @@ li a {
 }
 
 .photo_bac {
-  display: none;
-}
-
-.photo_bac img {
-  display: none;
-}
-
-.photo_bac .text_wrap {
   display: none;
 }
 

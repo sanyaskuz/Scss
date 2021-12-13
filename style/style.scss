@@ -27,6 +27,7 @@ body._lock{
 
 .header_section{
     max-width: 100%;
+    height: 860px;
     
     background: #373A3C;
     margin: 0 auto;
@@ -173,7 +174,7 @@ body._lock{
     position: relative;
     
     text-align: center;
-    padding-top: 60px;
+    padding-top: 0px;
    
     input{
         width: 15px;
@@ -195,12 +196,6 @@ body._lock{
 }
 .photo_bac{
     display: none;
-    img{
-        display: none;
-    }
-    .text_wrap{
-        display: none;
-    }
 }
 .best_wrap{
   max-width: 100%;
