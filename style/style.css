@@ -226,10 +226,10 @@ li a {
 }
 
 .wrap_block {
-  width: 318px;
+  width: 320px;
   height: 420px;
   background-color: #FFFFFF;
-  margin-left: 15px;
+  margin-left: 20px;
   border: 1px solid #8DD83D;
 }
 
@@ -310,6 +310,7 @@ li a {
   background-color: #FFFFFF;
   -webkit-transition: 1s ease 0s;
   transition: 1s ease 0s;
+  margin-left: 25px;
 }
 
 .block_itom_xbox:hover {
@@ -372,5 +373,173 @@ li a {
 
 .block_itom_xbox .one {
   margin-top: 115px;
+}
+
+.Xbox_Design_Lab {
+  width: 100%;
+  height: 480px;
+  margin: 0 auto;
+  background: url(../images/bacgraunds/2.png) no-repeat;
+  background-size: cover;
+}
+
+.Xbox_Design_Lab .container_design {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.itam_design {
+  position: relative;
+  left: 170px;
+  top: 107px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.itam_design h1 {
+  font-size: 48px;
+  font-family: "Gowun Batang", serif;
+  color: #FFFFFF;
+}
+
+.itam_design span {
+  font-size: 24px;
+  font-family: "Gowun Batang", serif;
+  color: #FFFFFF;
+}
+
+.flex_wrap_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.btn_design {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0px 10px;
+  border-radius: 5px;
+  background: #8DD83D;
+  margin-top: 30px;
+  width: 207px;
+}
+
+.btn_design:hover {
+  background-color: #686C6F;
+}
+
+.design_btn_on {
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.btn_design_two {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0px 10px;
+  border-radius: 5px;
+  background: #8DD83D;
+  margin-top: 30px;
+  left: 25px;
+  width: 278px;
+}
+
+.btn_design_two:hover {
+  background-color: #686C6F;
+}
+
+.design_btn_two {
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.footer {
+  width: 100%;
+  height: 395px;
+  background: #373A3C;
+}
+
+.container_footer {
+  width: 100%;
+}
+
+.flex_wrap_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.text_wrap_footer {
+  position: relative;
+  top: 50px;
+}
+
+.text_wrap_footer a {
+  display: block;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.text_wrap_footer a:hover {
+  color: #8DD83D;
+}
+
+.block_end_footer {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  top: 100px;
+  border-top: 2px solid #D8D8D8;
+}
+
+.img_footer {
+  margin-top: 25px;
+}
+
+.img_footer img {
+  padding: 5px;
+}
+
+.footer_wrap a {
+  font-size: 18px;
+}
+
+.block_end_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.block_end_footer span {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

@@ -7,6 +7,7 @@ $colorSlide: #8DD83D ;
 $colorBtn: #686C6F;
 $colorBac: #435766;
 $colorText:#435766;
+$colorBacFooter:#373A3C;
 
 
 *, body, html{ 
@@ -246,10 +247,10 @@ body._lock{
 
 }
 .wrap_block{
-        width: 318px;
+        width: 320px;
         height: 420px;
         background-color: $colortext;
-        margin-left: 15px;
+        margin-left: 20px;
         border: 1px solid $colorSlide ;
         
 
@@ -338,6 +339,7 @@ body._lock{
     margin-top: 80px;
     background-color: $colortext;
     transition: 1s ease 0s;
+    margin-left: 25px;
     &:hover{
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
@@ -400,6 +402,159 @@ body._lock{
         margin-top: 115px;
     }
 
+}
+.Xbox_Design_Lab{
+    width: 100%;
+    height: 480px;
+    margin: 0 auto;
+    background: url(../images/bacgraunds/2.png) no-repeat;
+    background-size: cover;
+    .container_design{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+.itam_design{
+    position: relative;
+    
+    
+    left: 170px;
+    top: 107px;
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        font-size: 48px;
+        font-family: $fontFamil;
+        color: $colortext;
+
+    }
+    span{
+        font-size: 24px;
+        font-family: $fontFamil;
+        color: $colortext;
+
+
+    }
+}
+.flex_wrap_btn{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    
+    
+    
+
+}
+.btn_design{
+    
+    position: relative;
+    
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0px 10px ;
+    border-radius: 5px;
+    background: $colorSlide;
+    margin-top: 30px;
+    
+    width: 207px;
+    &:hover{
+        background-color: $colorBtn;
+    }
+  
+    
+}
+.design_btn_on{
+    text-align: center;
+    font-family: $fontFamily;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+.btn_design_two{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0px 10px ;
+    border-radius: 5px;
+    background: $colorSlide;
+    margin-top: 30px;
+    left: 25px;
+    width: 278px;
+    &:hover{
+        background-color: $colorBtn;
+    }
+   
+    
+    
+    
+
+
+}
+.design_btn_two{
+    text-align: center;
+    font-family: $fontFamily;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.footer{
+    width: 100%;
+    height: 395px;
+    background: $colorBacFooter;
+
+}
+.container_footer{
+    width: 100%;
+}
+.flex_wrap_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.text_wrap_footer{
+    position: relative;
+    top:50px;
+    a{
+        display: block;
+        font-family: $fontFamily;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-top: 20px;
+        &:hover{
+            color: $colorSlide;
+        }
+
+    }
+
+}
+.block_end_footer{
+    position: relative;
+    width:  90%;
+    margin: 0 auto;
+    top: 100px;
+    border-top: 2px solid #D8D8D8;
+}
+.img_footer{
+    margin-top: 25px;
+    img{
+        padding: 5px;
+    }
+}
+.footer_wrap{
+    a{
+    font-size: 18px;
+    }
+}
+.block_end_footer{
+    display: flex;
+    justify-content: space-between;
+
+    span{
+        display: block;
+    }
 }
 
 
