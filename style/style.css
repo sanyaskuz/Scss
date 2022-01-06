@@ -737,5 +737,126 @@ li a {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.item_text_center {
+  font-size: 36px;
+  font-family: "Gowun Batang", serif;
+  color: #435766;
+}
+
+.item_text_center_one {
+  font-size: 36px;
+  font-family: "Gowun Batang", serif;
+  color: #435766;
+}
+
+.item_picture_center img {
+  width: 524px;
+  height: 359px;
+}
+
+.text_center_wrap {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.text_wrap_center {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.text_wrap_center h1 {
+  font-size: 36px;
+  font-family: "Gowun Batang", serif;
+  color: #435766;
+}
+
+.text_item_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.text_item_center .text_center_one {
+  margin-top: 35px;
+}
+
+.text_item_center .text_center_two {
+  margin-top: 35px;
+}
+
+.text_center_one p {
+  font-size: 21px;
+  font-family: "Gowun Batang", serif;
+  color: #435766;
+}
+
+.text_center_two span {
+  font-size: 21px;
+  font-family: "Gowun Batang", serif;
+  color: #435766;
+}
+
+.btn_center_item {
+  margin-top: 55px;
+  margin-bottom: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn_center_item_on {
+  text-align: center;
+  position: relative;
+  text-align: center;
+  padding: 10px 0px 10px;
+  border-radius: 5px;
+  background: #8DD83D;
+  width: 235px;
+}
+
+.btn_center_item_on:hover {
+  background-color: #686C6F;
+}
+
+.btn_center_item_on a {
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.btn_cetner_two {
+  text-align: center;
+  position: relative;
+  left: 40px;
+  text-align: center;
+  padding: 10px 0px 10px;
+  border-radius: 5px;
+  background: #8DD83D;
+  width: 235px;
+}
+
+.btn_cetner_two:hover {
+  background-color: #686C6F;
+}
+
+.btn_cetner_two a {
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */
