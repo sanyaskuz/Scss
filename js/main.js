@@ -32,10 +32,12 @@ window.onload = function() {
         }
         this.images[i].className = "shown";
 
+        
+
       }
 
       this.next = function () {
-        console.log('next');
+        // console.log('next');
         this.images[i].className = "";
         i++
         if(i>= this.images.length) {
@@ -44,11 +46,18 @@ window.onload = function() {
         this.images[i].className = "shown"
 
 
+        
+        
+
+
       }
+      this.btNext.addEventListener('click', this.next.bind(this));
+      this.btPrev.addEventListener('click', this.prev.bind(this));
+
+      
+      
 
 
-      this.btNext.addEventListener('click', this.next.bind(this))
-      this.btPrev.addEventListener('click', this.prev.bind(this))
 
 
       // setInterval(this.next.bind(this), this.interval)

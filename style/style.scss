@@ -557,6 +557,190 @@ body._lock{
     }
 }
 
+// Страница номер 2
+.CalOff{
+    max-width: 100%;
+    height: auto;
+    
+}
+.Bac_CallOf{
+    margin: 0 auto;
+    max-width: 100%;
+    height: 817px;
+    background: url(../images/bacgraunds/CoD-WWII.png) no-repeat;
+    background-size: cover;
+
+
+}
+
+.callItam{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    position: relative;
+    top: 25%;
+    right: 25%;
+    
+
+    
+
+}
+.CallOfText{
+    font-size: 14px;
+    font-family: $fontFamil;
+    color: $colortext;
+
+}
+.CallText{
+    font-size: 36px;
+    font-family: $fontFamil;
+    color: $colortext;
+}
+
+.Btn_call{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 150px;
+
+
+
+}
+.btn_one{
+    margin-top: 35px;
+    text-align: center;
+    position: relative;
+    
+    text-align: center;
+    padding: 10px 0px 10px ;
+    border-radius: 5px;
+    background: $colorSlide;
+    width: 136px;
+
+    &:hover{
+        background-color: $colorBtn;
+    }
+    .btn_caall{
+        text-align: center;
+        font-family: $fontFamily;
+        font-size: 16px;
+        color: #FFFFFF;
+
+    }
+
+}
+.btn_two{
+    margin-top: 35px;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    text-align: center;
+    padding: 10px 0px 10px ;
+    border-radius: 5px;
+    background: $colorSlide;
+    width: 136px;
+
+    &:hover{
+        background-color: $colorBtn;
+    }
+    .btn_caall{
+        text-align: center;
+        font-family: $fontFamily;
+        font-size: 16px;
+        color: #FFFFFF;
+
+    }
+
+}
+.central{
+    margin: 0 auto;
+    max-width: 100%;
+}
+.text_central{
+    margin-top: 100px;
+    text-align: center;
+    h1{
+        font-size: 36px;
+        font-family: $fontFamil;
+        color: #435766;
+
+    }
+
+
+}
+.center_btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 175px;
+
+}
+.btn_center_one{
+    // margin-top: 35px;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    padding: 10px 0px 10px ;
+    border-radius: 5px;
+    background: $colorSlide;
+    width: 136px;
+
+    &:hover{
+        background-color: $colorBtn;
+    }    
+
+    .btn_center{
+        text-align: center;
+        font-family: $fontFamily;
+        font-size: 16px;
+        color: #FFFFFF;
+
+
+    }
+
+}
+.btn_center_two{
+    text-align: center;
+    position: relative;
+    left: 40px;
+    text-align: center;
+    padding: 10px 0px 10px ;
+    border-radius: 5px;
+    background: $colorSlide;
+    width: 230px;
+
+    &:hover{
+        background-color: $colorBtn;
+    } 
+    .btn_center{
+        text-align: center;
+        font-family: $fontFamily;
+        font-size: 16px;
+        color: #FFFFFF;
+
+
+    }
+
+}
+.vidio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 125px;
+    iframe{
+        width: 890px;
+        height: 562px;
+        margin-bottom: 40px;
+
+    }
+}
+
+.item_center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 
 
